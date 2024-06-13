@@ -17,3 +17,8 @@ class Magazine(models.Model):
     def image_url(self):
         if self.image:
             return self.image.url
+
+
+class New(models.Model):
+    pass
+
